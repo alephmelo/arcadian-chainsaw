@@ -1,7 +1,7 @@
 %option main
 	#include <stdio.h>
 
-phone   [0-9]{9,9}
+phone   [0-9]{8,9}
 ddd     [0-9]{2,3}
 country \+?[0-9]{1,3} 
 %%
